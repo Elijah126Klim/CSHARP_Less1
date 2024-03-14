@@ -2,3 +2,14 @@ Task1.deps
 Task1.dll
 Task1.pdb
 Task1.runtimeconfig
+Task2.deps.json
+Task2.dll
+Task2.exe
+Task2.pdb
+Task2.runtimeconfig.json
+project.assets.json
+project.nuget.cache
+Task2.csproj.nuget.dgspec.json
+Task2.csproj.nuget.g.props
+Task2.csproj.nuget.g.targets
+

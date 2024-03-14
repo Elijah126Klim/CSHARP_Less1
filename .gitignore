@@ -12,4 +12,8 @@ project.nuget.cache
 Task2.csproj.nuget.dgspec.json
 Task2.csproj.nuget.g.props
 Task2.csproj.nuget.g.targets
+Task2.dll
+Task2.exe
+Task2.pdb
+obj
 

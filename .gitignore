@@ -16,4 +16,7 @@ Task2.dll
 Task2.exe
 Task2.pdb
 obj
-
+Task1.AssemblyInfo.cs
+Task1.AssemblyInfoInputs.cache
+Task2.AssemblyInfo.cs
+Task2.AssemblyInfoInputs.cache

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stron\\Desktop\\CSHARP\\Lesson01\\Task1\\Task1.csproj",
+      "projectUniqueName": "C:\\Users\\stron\\Desktop\\Учеба\\CSHARP\\Lesson01\\Task1\\Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "C:\\Users\\stron\\Desktop\\CSHARP\\Lesson01\\Task1\\Task1.csproj",
+      "projectPath": "C:\\Users\\stron\\Desktop\\Учеба\\CSHARP\\Lesson01\\Task1\\Task1.csproj",
       "packagesPath": "C:\\Users\\stron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stron\\Desktop\\CSHARP\\Lesson01\\Task1\\obj\\",
+      "outputPath": "C:\\Users\\stron\\Desktop\\Учеба\\CSHARP\\Lesson01\\Task1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stron\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -37,3 +37,9 @@ Task2.GeneratedMSBuildEditorConfig.editorconfig
 Task2.assets.cache
 project.assets.json
 project.nuget.cache
+Task1.csproj
+project.assets.json
+project.nuget.cache
+Task1.csproj.nuget.dgspec.json
+Task1.csproj.nuget.g.props
+Task1.csproj.nuget.g.targets

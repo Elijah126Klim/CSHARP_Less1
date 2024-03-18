@@ -4,11 +4,15 @@
 // a = 9, b = -3 => да
 // a = -3, b = 9 => нет
 
+Console.WriteLine("Введите первое число: ");
+string num1Str = Console.ReadLine()!;
+int num1 = Convert.ToInt32(num1Str);
 
+Console.WriteLine("Введите второе число: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
 
-
-int num1 = 2;
-int num2 = 10;
+// int num1 = 2;
+// int num2 = 10;
 
 if (num1 == num2 * num2)
 {

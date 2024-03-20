@@ -1,19 +1,19 @@
-﻿Console.WriteLine("введите число");
+﻿// Написать программу: принимает на вход 3- значное число и удаляет 2-ю цифру этого числа.
+// a = 256 => 26
+// a = 891 => 81
+
+
+Console.WriteLine("Введите 3-х значное число");
 int num = Convert.ToInt32(Console.ReadLine());
-// num = 456798
-if (num < 0) 
+
+if (num >= 100 && num <= 999 || num <= -100 && num >= -999)
 {
-    num = num * -1;
-}  
-if (num > 99)
-{
-    while (num > 999) // 456 < 999;
-    {
-        num /= 10; // 4567/10=456
-    }
-    Console.Write($"Третья цифра = (num % 10)");
+    int digit1 = num / 100;
+    int digit3 = num % 10;
+    int result = digit1 * 10 + digit3;
+    Console.Write(result);
 }
 else
 {
-    Console.Write("Нет 3 цифры");
+    Console.WriteLine("Некорректный ввод");
 }

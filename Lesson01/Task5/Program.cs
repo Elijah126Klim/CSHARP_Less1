@@ -5,6 +5,6 @@ while (i <= n)
 {
     //Console.WriteLine(i);
     Console.Write(i);
-    Console.Write(' ');
+    Console.Write(", ");
     i = i + 1;
 }

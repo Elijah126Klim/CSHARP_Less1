@@ -7,25 +7,25 @@
 Console.WriteLine("Введите 3-х знач-ое число:");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number < 100 || number > 999 )
+if (number < 100 || number > 999 ) // Проверка числа
 {
  Console.WriteLine("Некорректный ввод");
+ return; // Завершает работу программы
 }
-else
-{
-    int[] result = new int[3];
-
+        // Логика кода
+    int[] result = new int[3]; // Создаем массив
+// Проходимся по массиву
     for (int i = 0; i < result.Length; i++)
     {
-        result[i] = number % 10;
-        number /= 10;
+        result[i] = number % 10; // Кладем последнюю цифру в массив
+        number /= 10; // Отрезаем последнюю цифру у числа
     }
-
+// Выводим массив
     for (int i = 0; i < result.Length; i++)
     {
         Console.Write(result[i] + " ");
     } 
-}
+
 
    
 
